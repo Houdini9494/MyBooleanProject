@@ -1,0 +1,127 @@
+/* GENERALI */
+
+/* reset CSS */
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* contenitori principali */
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container{
+    height: 90%;
+    width: 65%;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+header img{
+    height: 150px;
+    margin-top: 3%;
+}
+header h1{
+    font-size: 3em;
+    color: rgb(26, 255, 0);
+}
+
+/* NAV */
+nav{
+    background-color: rgb(26, 255, 0);
+    width: 80%;
+    margin: 1% auto 2%;
+    padding: 1%;
+    border-radius: 10px;
+}
+.navbar{
+    text-align: center;
+    line-height: 5%;
+}
+button{
+    margin: 0 1%;
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+/* MAIN SECTIONS */
+main{
+    width: 80%;
+    margin: auto;
+    overflow-y: scroll;
+}
+section{
+    margin: 30px 0;
+    line-height: 3em;
+}
+input[type=checkbox]{
+    margin: 0 1% 1% 0;
+    height: 20px;
+    width: 20px;
+}
+section label{
+    font-size: 2.3em;
+}
+section p{
+    line-height: 25px;
+    font-size: 1.5em;
+    color: rgb(214, 212, 212);
+}
+.luogo:before{
+    content: "\21A6";
+    margin-right: 0.5em;
+}
+.chargebar{
+    min-width: 1%;
+    height: 50px;
+    background-color: white;
+    margin: 1% 0;
+    border-radius: 10px;
+}
+.red{
+    background-color: red;
+    width: 25%;
+}
+.green{
+    background-color: rgb(0, 191, 0);
+    width: 100%;
+}
+.orange{
+    background-color: orange;
+    width: 50%;
+}
+
+/* FOOTER */
+footer{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    text-align: center;
+    line-height: 1.5em;
+}
+footer p{
+    font-size: 1.5em;
+}
+footer p::after{
+    content: "\1F49A";
+    margin-left: 0.5em;
+}
